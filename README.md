@@ -2,5 +2,4 @@
 
 Hola, mi nombre es Daniel Cardona.
 
-Ingeniero Electronico y Data Science en formacion.
-
+Ingeniero Electronico y Data Science.
