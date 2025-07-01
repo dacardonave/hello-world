@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'SF Pro Text', Helvetica, Arial, sans-serif;
+  background-color: white;
+}
+
+.pass-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.month {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.qr-container img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.title {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.zones {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.clock, .countdown {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.bars {
+  display: flex;
+  margin-top: 20px;
+  height: 20px;
+}
+
+.bar {
+  flex: 1;
+  transition: background-color 0.5s ease;
+}
+
+/* QR popup */
+.qr-popup {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255,255,255,0.95);
+  border: 2px solid #333;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.qr-popup img {
+  width: 90%;
+  height: auto;
+}
