@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transit Pass</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="pass-container">
+    <div class="month">JUN 2025</div>
+
+    <div class="qr-container">
+      <img id="qr" src="qr_code.png" alt="QR Code"/>
+    </div>
+
+    <div class="title">BUS INTERSTATE PASS</div>
+    <div class="zones">3 ZONES</div>
+
+    <div class="clock" id="clock">Loading time...</div>
+    <div class="countdown" id="countdown">Loading countdown...</div>
+
+    <div class="bars">
+      <div class="bar" id="bar1"></div>
+      <div class="bar" id="bar2"></div>
+      <div class="bar" id="bar3"></div>
+    </div>
+  </div>
+
+  <div id="qr-popup" class="qr-popup">
+    <img src="qr_code.png" alt="QR Enlarged"/>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
